@@ -7,7 +7,7 @@
 # 
 
 cp cpupower.service /etc/systemd/system/cpupower.service
-chmod 757 /etc/systemd/system/cpupower.service
+chmod +x /etc/systemd/system/cpupower.service
 
 systemctl daemon-reload
 systemctl enable cpupower.service
