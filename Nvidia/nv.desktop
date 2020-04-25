@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Exec="/path/to/enable-nv-performance-mode.sh"
+X-GNOME-Autostart-enabled=true
+Name[en_IN]=NvidiaPerfMode
+Name=NvidiaPerfMode

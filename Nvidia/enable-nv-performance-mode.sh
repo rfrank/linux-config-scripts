@@ -5,6 +5,6 @@
 # 
 # Autorun
 # KDE: Settings > Startup and Shutdown > Autostart ... Click "Add Script..." and point it to this file; check "Create as symlink" checked and select to run "Before session startup"
-# GNOME (or KDE): Follow this comment: https://askubuntu.com/a/598198; confirmed working on Arch with a bit of tweaking
+# GNOME: Copy the included nv.desktop file to ~/.config/autostart/ and reboot. Be sure to change the ExecPath to match the path of this script on your system.
 
 nvidia-settings -a "[gpu:0]/GpuPowerMizerMode=1"
